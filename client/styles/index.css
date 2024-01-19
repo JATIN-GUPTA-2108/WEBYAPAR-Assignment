@@ -1,0 +1,109 @@
+body {
+	background: #edebeb;
+}
+
+.loginPage {
+	min-height: 100vh;
+	display: flex;
+}
+
+.form-control {
+	outline: 1px solid;
+}
+
+.navbar {
+	display: none;
+}
+
+.left-side {
+	background: url('../public/Group\ 48096340.svg') center/cover no-repeat,
+		#03013b;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-side {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 60%;
+}
+
+.btn {
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.title {
+	color: blueviolet;
+}
+
+.left-box {
+	width: 45%;
+	height: 150px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linked-text {
+	/* margin-right: auto; */
+	text-decoration: none;
+}
+
+.linked-box {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+@media (max-width: 595px) {
+	.loginPage {
+		flex-direction: column;
+	}
+
+	.navbar {
+		display: block;
+		width: 100%;
+		height: 50px;
+	}
+
+	.left-side {
+		width: 100%;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.right-side {
+		margin-top: 50px;
+		width: 100%;
+		height: 60%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.left-box {
+		width: 45%;
+		height: 50px;
+		background-color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

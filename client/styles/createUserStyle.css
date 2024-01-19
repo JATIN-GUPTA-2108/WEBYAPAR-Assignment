@@ -1,0 +1,121 @@
+body {
+	background: #edebeb;
+}
+
+.page {
+	display: flex;
+	height: 100vh;
+}
+
+.form-control {
+	outline: 1px solid;
+}
+
+.left-side {
+	width: 50%;
+	border-right: 2px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn {
+	width: 100%;
+}
+
+.form {
+	width: 60%;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.right-side {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-box {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	display: none;
+}
+
+.user {
+	width: 100%;
+}
+.users {
+	width: 100%;
+	height: 120px;
+	margin-bottom: 20px;
+	background-color: #eaecff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.userId {
+	width: 90%;
+	height: 35%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+}
+
+.btn-box {
+	width: 100px;
+	margin-left: auto;
+}
+
+@media (max-width: 595px) {
+	.page {
+		flex-direction: column;
+	}
+
+	.left-side {
+		width: 100%;
+		border-bottom: 9px solid #eaecff;
+		border-right: none;
+	}
+
+	.navbar {
+		display: block;
+		width: 100%;
+		height: 50px;
+	}
+
+	.right-side {
+		width: 100%;
+	}
+
+	.form {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 50%;
+	}
+
+	.right-box {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 70%;
+	}
+}
